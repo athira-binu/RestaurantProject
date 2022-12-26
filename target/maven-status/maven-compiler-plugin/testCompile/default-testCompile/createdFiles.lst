@@ -1,0 +1,4 @@
+com\Restaurant\Testcases\VerifyValidUserLoginTest.class
+com\Restaurant\Testcases\VerifySettingsPage.class
+com\Restaurant\Testcases\VerifyUsersPageInSettings.class
+com\Restaurant\Testcases\VerifyHomePage.class

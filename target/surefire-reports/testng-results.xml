@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="9" total="16" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="117200" started-at="2022-12-15T00:45:08 IST" finished-at="2022-12-15T00:47:05 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="117200" started-at="2022-12-15T00:45:08 IST" finished-at="2022-12-15T00:47:05 IST">
+      <class name="com.Restaurant.Testcases.VerifyUsersPageInSettings">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.Restaurant.Testcases.VerifyUsersPageInSettings@4c762604]" name="launchApp" is-config="true" duration-ms="6353" started-at="2022-12-15T00:46:51 IST" finished-at="2022-12-15T00:46:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="VerifyUsersTable()[pri:0, instance:com.Restaurant.Testcases.VerifyUsersPageInSettings@4c762604]" name="VerifyUsersTable" duration-ms="6861" started-at="2022-12-15T00:46:57 IST" finished-at="2022-12-15T00:47:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUsersTable -->
+        <test-method status="PASS" signature="driverclose()[pri:0, instance:com.Restaurant.Testcases.VerifyUsersPageInSettings@4c762604]" name="driverclose" is-config="true" duration-ms="737" started-at="2022-12-15T00:47:04 IST" finished-at="2022-12-15T00:47:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+      </class> <!-- com.Restaurant.Testcases.VerifyUsersPageInSettings -->
+      <class name="com.Restaurant.Testcases.VerifyValidUserLoginTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.Restaurant.Testcases.VerifyValidUserLoginTest@149494d8]" name="beforeSuite" is-config="true" duration-ms="552" started-at="2022-12-15T00:45:07 IST" finished-at="2022-12-15T00:45:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.Restaurant.Testcases.VerifyValidUserLoginTest@149494d8]" name="loadConfig" is-config="true" duration-ms="4" started-at="2022-12-15T00:45:08 IST" finished-at="2022-12-15T00:45:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.Restaurant.Testcases.VerifyValidUserLoginTest@149494d8]" name="launchApp" is-config="true" duration-ms="17641" started-at="2022-12-15T00:45:08 IST" finished-at="2022-12-15T00:45:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="VerifyInvalidUserLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Restaurant.Testcases.VerifyValidUserLoginTest@149494d8]" name="VerifyInvalidUserLogin" duration-ms="2853" started-at="2022-12-15T00:45:26 IST" data-provider="InvaidLoginDetails" finished-at="2022-12-15T00:45:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUserLogin -->
+        <test-method status="PASS" signature="driverclose()[pri:0, instance:com.Restaurant.Testcases.VerifyValidUserLoginTest@149494d8]" name="driverclose" is-config="true" duration-ms="891" started-at="2022-12-15T00:45:29 IST" finished-at="2022-12-15T00:45:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.Restaurant.Testcases.VerifyValidUserLoginTest@149494d8]" name="launchApp" is-config="true" duration-ms="7513" started-at="2022-12-15T00:45:29 IST" finished-at="2022-12-15T00:45:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="VerifyInvalidUserLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Restaurant.Testcases.VerifyValidUserLoginTest@149494d8]" name="VerifyInvalidUserLogin" duration-ms="1883" started-at="2022-12-15T00:45:37 IST" data-provider="InvaidLoginDetails" finished-at="2022-12-15T00:45:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUserLogin -->
+        <test-method status="PASS" signature="driverclose()[pri:0, instance:com.Restaurant.Testcases.VerifyValidUserLoginTest@149494d8]" name="driverclose" is-config="true" duration-ms="2004" started-at="2022-12-15T00:45:39 IST" finished-at="2022-12-15T00:45:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.Restaurant.Testcases.VerifyValidUserLoginTest@149494d8]" name="launchApp" is-config="true" duration-ms="8149" started-at="2022-12-15T00:45:41 IST" finished-at="2022-12-15T00:45:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="VerifyInvalidUserLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Restaurant.Testcases.VerifyValidUserLoginTest@149494d8]" name="VerifyInvalidUserLogin" duration-ms="1590" started-at="2022-12-15T00:45:49 IST" data-provider="InvaidLoginDetails" finished-at="2022-12-15T00:45:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[axa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[def]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUserLogin -->
+        <test-method status="PASS" signature="driverclose()[pri:0, instance:com.Restaurant.Testcases.VerifyValidUserLoginTest@149494d8]" name="driverclose" is-config="true" duration-ms="923" started-at="2022-12-15T00:45:51 IST" finished-at="2022-12-15T00:45:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.Restaurant.Testcases.VerifyValidUserLoginTest@149494d8]" name="launchApp" is-config="true" duration-ms="6524" started-at="2022-12-15T00:45:51 IST" finished-at="2022-12-15T00:45:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="VerifyUserLogin()[pri:0, instance:com.Restaurant.Testcases.VerifyValidUserLoginTest@149494d8]" name="VerifyUserLogin" duration-ms="6128" started-at="2022-12-15T00:45:58 IST" finished-at="2022-12-15T00:46:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserLogin -->
+        <test-method status="PASS" signature="driverclose()[pri:0, instance:com.Restaurant.Testcases.VerifyValidUserLoginTest@149494d8]" name="driverclose" is-config="true" duration-ms="1287" started-at="2022-12-15T00:46:04 IST" finished-at="2022-12-15T00:46:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:com.Restaurant.Testcases.VerifyValidUserLoginTest@149494d8]" name="AfterSuite" is-config="true" duration-ms="1745" started-at="2022-12-15T00:47:05 IST" finished-at="2022-12-15T00:47:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- com.Restaurant.Testcases.VerifyValidUserLoginTest -->
+      <class name="com.Restaurant.Testcases.VerifyHomePage">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.Restaurant.Testcases.VerifyHomePage@77846d2c]" name="launchApp" is-config="true" duration-ms="6250" started-at="2022-12-15T00:46:05 IST" finished-at="2022-12-15T00:46:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="VerifyDropDown()[pri:0, instance:com.Restaurant.Testcases.VerifyHomePage@77846d2c]" name="VerifyDropDown" duration-ms="15817" started-at="2022-12-15T00:46:12 IST" finished-at="2022-12-15T00:46:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDropDown -->
+        <test-method status="PASS" signature="driverclose()[pri:0, instance:com.Restaurant.Testcases.VerifyHomePage@77846d2c]" name="driverclose" is-config="true" duration-ms="725" started-at="2022-12-15T00:46:28 IST" finished-at="2022-12-15T00:46:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+      </class> <!-- com.Restaurant.Testcases.VerifyHomePage -->
+      <class name="com.Restaurant.Testcases.VerifySettingsPage">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.Restaurant.Testcases.VerifySettingsPage@548ad73b]" name="launchApp" is-config="true" duration-ms="10197" started-at="2022-12-15T00:46:28 IST" finished-at="2022-12-15T00:46:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="VerifySettings()[pri:0, instance:com.Restaurant.Testcases.VerifySettingsPage@548ad73b]" name="VerifySettings" duration-ms="11979" started-at="2022-12-15T00:46:38 IST" finished-at="2022-12-15T00:46:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySettings -->
+        <test-method status="PASS" signature="driverclose()[pri:0, instance:com.Restaurant.Testcases.VerifySettingsPage@548ad73b]" name="driverclose" is-config="true" duration-ms="633" started-at="2022-12-15T00:46:50 IST" finished-at="2022-12-15T00:46:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+      </class> <!-- com.Restaurant.Testcases.VerifySettingsPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<parameter name="Username" value="admin"></parameter>
+<parameter name="Password" value="password"></parameter>
+<listeners>
+<listener class-name = "com.Restaurant.Utilities.ListenerClass"/>
+</listeners>
+  <test thread-count="5" name="Regression">
+  <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.Restaurant.Testcases.VerifyValidUserLoginTest"/>
+	<class name="com.Restaurant.Testcases.VerifyHomePage"/>
+	<class name="com.Restaurant.Testcases.VerifySettingsPage"/>
+	<class name="com.Restaurant.Testcases.VerifyUsersPageInSettings"/>
+	<class name="com.Restaurant.Testcases.VerifySalesPage"/>
+	<class name="com.Restaurant.Testcases.VerifyReportPage"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Sanity">
+  <parameter name="Browser" value="Chrome"/>
+    <classes>    
+	<class name="com.Restaurant.Testcases.VerifyWarehousePageInSettings"/>
+	<class name="com.Restaurant.Testcases.VerifyWaitersPageInPeople"/>
+	<class name="com.Restaurant.Testcases.VerifyCustomersPageInPeople"/>
+	<class name="com.Restaurant.Testcases.VerifySuppliersPageInPeople"/>
+	</classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Smoke">
+  <parameter name="Browser" value="Chrome"/>
+    <classes>    
+	<class name="com.Restaurant.Testcases.VerifySalesPage"/>
+	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
